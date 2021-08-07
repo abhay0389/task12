@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Modified Nav</title>
+   
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+       
+        <nav id="sidebar">
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" >
+                        <i class="fas fa-home over"></i>
+                        <span class="sideFont over">Home</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase over"></i>
+                        <span class="sideFont">About Us</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy over"></i>
+                        <span class="sideFont">Pages</span>
+                    </a>
+                
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-image over"></i>
+                        <span class="sideFont">Portfolio</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question over"></i>
+                        <span class="sideFont">FAQs</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane over"></i>
+                        <span class="sideFont">Contact Us</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane over"></i>
+                        <span class="sideFont">Contact Us</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane over"></i>
+                        <span class="sideFont">Contact Us</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane over"></i>
+                        <span class="sideFont">Contact Us</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane over"></i>
+                        <span class="sideFont">Contact Us</span>
+                    </a>
+                </li>
+                <li class="border2"></li>
+            </ul>
+
+        </nav>
+       
+        <div id="content">
+            <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #263c5c;"> 
+                <button type="button" id="sidebarCollapse" class="btn btn-info toggle" >
+                    <i class="fas fa-align-left"></i>
+                    <span> </span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 4px 8px;">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <ul class="navbar-nav  navbar-right-top">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#"> <center><i class="fa fa-home iconC"></i></center>Home <span class="sr-only">(current)</span></a>
+                        <div class="act-link"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-users iconC"></i></center>Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fas fa-calendar-alt iconC"></i></center>Third Party</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fas fa-envelope iconC"></i></center>Product & services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fas fa-rupee-sign iconC"></i></center>MRP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <center><i class="fa fa-home iconC"></i></center>Commerce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-bolt iconC"></i></center>Billing Payment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-adjust iconC"></i></center>Bank & Cash</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-certificate iconC"></i></center>Accounting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-table iconC"></i></center>HRM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-heart iconC"></i></center>Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-map iconC"></i></center>Ticket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><center><i class="fa fa-home iconC"></i></center>Tools</a>
+                    </li>
+                </ul> 
+                <ul class="navbar-nav  navbar-right-top headerMargin" >
+                    <li class="nav-item dropdown nav-user notifications">
+                        <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://colorlib.com/polygon/concept/assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                        <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                            <div class="nav-user-info">
+                                <h5 class="mb-0 text-white nav-user-name">John Abraham </h5>
+                                <span class="status"></span><span class="ml-2">Available</span>
+                            </div>
+                            <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                            <a class="dropdown-item" href="login.html"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container" style="margin: 30px 0px;">
+                <div class=" py-2">
+                    <h2 class="text-dark text-center mt-3">
+                        MULTIPLE DEALER
+                    </h2>
+                    <table id="example" class="table table-bordered" style="width:100%; ">
+                        <thead>
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Dealer Id</th>
+                                <th>Firm Name</th>
+                                <th>GSTIN No</th>
+                                <th>Address</th>
+                                <th>Go</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tiger Nixon</td>
+                                <td>System Architect</td>
+                                <td>Edinburgh</td>
+                                <td>61</td>
+                                <td>2011/04/25</td>
+                                <td><button type="button" class="btn btn-info ml-3 button_s"><i class="fa fa-arrow-circle-right" aria-hidden="true" style="font-size: 16px;"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>Garrett Winters</td>
+                                <td>Accountant</td>
+                                <td>Tokyo</td>
+                                <td>63</td>
+                                <td>2011/07/25</td>
+                                <td><button type="button" class="btn btn-info ml-3 button_s"><i class="fa fa-arrow-circle-right" aria-hidden="true" style="font-size: 16px;"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>Ashton Cox</td>
+                                <td>Junior Technical Author</td>
+                                <td>San Francisco</td>
+                                <td>66</td>
+                                <td>2009/01/12</td>
+                                <td><button type="button" class="btn btn-info ml-3 button_s"><i class="fa fa-arrow-circle-right" aria-hidden="true" style="font-size: 16px;"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>Cedric Kelly</td>
+                                <td>Senior Javascript Developer</td>
+                                <td>Edinburgh</td>
+                                <td>22</td>
+                                <td>2012/03/29</td>
+                                <td><button type="button" class="btn btn-info ml-3 button_s"><i class="fa fa-arrow-circle-right" aria-hidden="true" style="font-size: 16px;"></i></button></td>
+                            </tr>
+                            
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            arustu Technology 
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script> -->
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="assets//vendor/js/jquery.dataTables.min.js"></script>
+    <script src="assets/vendor/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+       
+            $(".toggle").click(function() {
+                if ($("#content").css("margin-left") == "200px") {
+                    $("#content").animate({"margin-left": "90px"}, 10);
+                    console.log("hey")
+                }
+                else if ($("#content").css("margin-left") == "90px") {
+                    $("#content").animate({"margin-left": "200px"}, 10);
+                    console.log("hey1")
+                }
+            });
+        
+        });
+
+        $(function() {
+            $("body")
+                .on('mouseenter', '.over', function() {
+                    if ($("#sidebar.active").css("min-width") == "200px") {
+                        $("#content").animate({"margin-left": "90px"}, 10);
+                        $("#sidebar.active").animate({"min-width": "75px"}, 10);  
+                        $("span").hide();
+                    }   
+                }).on('mouseleave', '.over', function() {
+                    if ($("#sidebar.active").css("min-width") == "75px") {
+                        $("#content").animate({"margin-left": "200px"}, 10);
+                        $("#sidebar.active").animate({"min-width": "200px"}, 10);
+                        $("span").show(); 
+                    }
+            });
+        });
+        
+    </script>
+</body>
+
+</html>
